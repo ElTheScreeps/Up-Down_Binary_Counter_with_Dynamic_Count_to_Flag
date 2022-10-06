@@ -1,4 +1,4 @@
-module DW03_bictr_dcnto(data, up_dn, load, cen, clk, reset, count_to, count, tercnt );
+module DW03_bictr_dcnto(data, up_dn, load, cen, clk, reset, count_to, count, tercnt);
 
 parameter width = 8;
 
