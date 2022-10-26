@@ -11,9 +11,11 @@ Description:
 - The count enable pin, cen, is active high. When cen is HIGH, the counter is active. When cen is LOW, the counter is disabled, and count remains at the same value
 
 Table 1:
-![image](https://user-images.githubusercontent.com/115155585/197959850-259cc01d-0762-4e34-b5c9-8d6cc16607f7.png)
+
+![image](https://user-images.githubusercontent.com/115155585/197960040-59b63932-5d9f-4044-bdda-b61886a9ca05.png)
 
 Table 2:
+
 ![image](https://user-images.githubusercontent.com/115155585/197959908-939e8b1d-3b0e-4f08-a357-d630deac37dd.png)
 
 How to use this files:
