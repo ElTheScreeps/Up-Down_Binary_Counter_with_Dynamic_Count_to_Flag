@@ -1,5 +1,8 @@
 Up/Down inary counter with dynamic count to flag
 
+![image](https://user-images.githubusercontent.com/115155585/197960945-d305a25e-e109-4e43-aec7-924c38f893eb.png)
+
+
 Description:
 - DW03_bictr_dcnto is a general-purpose up/ down counter with dynamic count-to logic.
 - When the count value equals the value on the count_to pin, the signal tercnt (terminal count) is asserted (HIGH). tercnt can be connected to load through an inversion to synchronously reset the counter to a predefined value on the input pin of the data bus, data.
@@ -10,11 +13,11 @@ Description:
 - The counter is loaded with data by asserting load (LOW) and applying data to data. The data load operation is synchronous with respect to the positive edge of clk.
 - The count enable pin, cen, is active high. When cen is HIGH, the counter is active. When cen is LOW, the counter is disabled, and count remains at the same value
 
-Table 1:
+Table 1 - pin description:
 
 ![image](https://user-images.githubusercontent.com/115155585/197960040-59b63932-5d9f-4044-bdda-b61886a9ca05.png)
 
-Table 2:
+Table 2 counter operation truth table:
 
 ![image](https://user-images.githubusercontent.com/115155585/197960113-09c1e882-f010-4d67-aa78-4653ff9c3475.png)
 
