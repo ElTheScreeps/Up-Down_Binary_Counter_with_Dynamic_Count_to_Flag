@@ -16,7 +16,7 @@ Table 1:
 
 Table 2:
 
-![image](https://user-images.githubusercontent.com/115155585/197959908-939e8b1d-3b0e-4f08-a357-d630deac37dd.png)
+![image](https://user-images.githubusercontent.com/115155585/197960113-09c1e882-f010-4d67-aa78-4653ff9c3475.png)
 
 How to use this files:
 
