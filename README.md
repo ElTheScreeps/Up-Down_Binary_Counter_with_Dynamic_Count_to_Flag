@@ -17,7 +17,7 @@ Table 1 - pin description:
 
 ![image](https://user-images.githubusercontent.com/115155585/197960040-59b63932-5d9f-4044-bdda-b61886a9ca05.png)
 
-Table 2 counter operation truth table:
+Table 2 - counter operation truth table:
 
 ![image](https://user-images.githubusercontent.com/115155585/197960113-09c1e882-f010-4d67-aa78-4653ff9c3475.png)
 
