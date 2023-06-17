@@ -20,9 +20,9 @@ begin
 	else if (cen == 0) count_intern <= count_intern;
 	else if (cen == 1)
 	begin
-      if (load == 1 & up_dn == 0) count_intern <= data;
-      else if (up_dn == 1 & load == 0) count_intern <= count_intern + 1;
-      else if (up_dn == 0 & load == 0) count_intern <= count_intern - 1;
+        	if (load == 1 & up_dn == 0) count_intern <= data;
+        	else if (up_dn == 1 & load == 0) count_intern <= count_intern + 1;
+         	else if (up_dn == 0 & load == 0) count_intern <= count_intern - 1;
 	end
 end
 		
