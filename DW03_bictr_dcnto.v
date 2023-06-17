@@ -20,8 +20,9 @@ begin
 	else if (cen == 0) count_intern <= count_intern;
 	else if (cen == 1)
 	begin
-		if (up_dn) count_intern <= count_intern +1;
-		else count_intern <= count_intern - 1;
+      if (load == 1 & up_dn == 0) count_intern <= data;
+      else if (up_dn == 1 & load == 0) count_intern <= count_intern + 1;
+      else if (up_dn == 0 & load == 0) count_intern <= count_intern - 1;
 	end
 end
 		
@@ -30,3 +31,4 @@ assign count = count_intern;
 assign tercnt = (count_to == count_intern)? 1 : 0;
 
 endmodule
+
