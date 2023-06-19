@@ -4,7 +4,7 @@ Up/Down inary counter with dynamic count to flag
 
 
 Description:
-- DW03_bictr_dcnto is a general-purpose up/ down counter with dynamic count-to logic.
+- DW03_bictr_dcnto is a general-purpose up/down counter with dynamic count-to logic.
 - When the count value equals the value on the count_to pin, the signal tercnt (terminal count) is asserted (HIGH). tercnt can be connected to load through an inversion to synchronously reset the counter to a predefined value on the input pin of the data bus, data.
 - The counter is width bits wide and has 2width states from “000...0” to “111...1”. The counter is clocked on the positive edge of clk.
 - reset, active low, provides for an asynchronous reset of the counter to “000...0”. If the reset pin is connected to ‘1’, then the reset logic is not synthesized, resulting in a smaller and faster counter
