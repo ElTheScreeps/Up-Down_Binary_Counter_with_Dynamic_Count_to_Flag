@@ -15,11 +15,29 @@ Description:
 
 Table 1 - pin description:
 
-![image](https://user-images.githubusercontent.com/115155585/197960040-59b63932-5d9f-4044-bdda-b61886a9ca05.png)
+| Pin Name  | Size     | Type   | Function                         |
+|   :---:   |  :---:   |  :---: |     :---:                        |
+| data      | width    | Input  | Counter load input               |
+| count_to  | width    | Input  | Count compare input              |
+| up_dn     | 1        | Input  | High for count up, low for count down |
+| load      | 1        | Input  | Enable data load to counter, active low |
+| cen       | 1        | Input  | Count enable, active high        |
+| clk       | 1        | Input  | Clock                            |
+| reset     | 1        | Input  | Counter reset, active low        |
+| count     | width    | Output | Output count bus                 |
+| tercnt    | 1        | Output | Terminal count flag, active high |
+
 
 Table 2 - counter operation truth table:
 
-![image](https://user-images.githubusercontent.com/115155585/197960113-09c1e882-f010-4d67-aa78-4653ff9c3475.png)
+| reset | load | cen | up_dn | Operation |
+| :---: |:---: |:---:| :---: |   :---:   |
+| 0     | X    | X   | X     | Reset     |
+| 1     | 0    | X   | X     | Load      |
+| 1     | 1    | 0   | X     | Standby   |
+| 1     | 1    | 1   | 0     | Count down|
+| 1     | 1    | 1   | 1     | Count up  |
+
 
 How to use this files:
 
