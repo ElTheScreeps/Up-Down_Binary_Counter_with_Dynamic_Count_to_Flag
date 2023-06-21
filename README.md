@@ -1,7 +1,6 @@
 Up/Down inary counter with dynamic count to flag
 
-![image](https://user-images.githubusercontent.com/115155585/197960945-d305a25e-e109-4e43-aec7-924c38f893eb.png)
-
+![DW03_BICTR_DCNTO](https://github.com/ElTheScreeps/Up-Down_Binary_Counter_with_Dynamic_Count_to_Flag/assets/115155585/47408a9d-0ae3-418a-ae82-fe82d4fbed65)
 
 Description:
 - DW03_bictr_dcnto is a general-purpose up/down counter with dynamic count-to logic.
