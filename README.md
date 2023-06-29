@@ -1,4 +1,4 @@
-Up/Down inary counter with dynamic count to flag
+# Up/Down inary counter with dynamic count to flag
 
 ![DW03_BICTR_DCNTO](https://github.com/ElTheScreeps/Up-Down_Binary_Counter_with_Dynamic_Count_to_Flag/assets/115155585/47408a9d-0ae3-418a-ae82-fe82d4fbed65)
 
