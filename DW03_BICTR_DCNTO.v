@@ -1,23 +1,23 @@
-module DW03_BICTR_DCNTO(data, up_dn, load, cen, clk, reset, count_to, count, tercnt);
+module DW03_BICTR_DCNTO(clk, rst, load, cen, up_dn, data, count_to, count, tercnt);
 
 parameter width = 4;
 
-input  [width-1:0] data;
-input 	           up_dn;
+input 	           clk;
+input 	           rst;
 input 	           load;
 input 	           cen;
-input 	           clk;
-input 	           reset;
+input 	           up_dn;
+input  [width-1:0] data;
 input  [width-1:0] count_to;
 output [width-1:0] count;
 output 	           tercnt;
 
 reg    [width-1:0] count_intern;
 
-always @(posedge(clk) or negedge(reset))
+always @(posedge(clk) or negedge(rst))
 begin
-	if (~reset) count_intern <= 'b0;
-	else if (reset & load == 0) count_intern <= data;
+	if (~rst) count_intern <= 'b0;
+	else if (rst & load == 0) count_intern <= data;
 	else if (cen == 0 & load == 1) count_intern <= count_intern;
 	else if (cen == 1 & load == 1)
 	begin
